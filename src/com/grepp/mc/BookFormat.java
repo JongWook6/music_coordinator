@@ -1,6 +1,7 @@
 package com.grepp.mc;
 
-import com.grepp.mc.infra.llm.gemini.text.vo.generation.PropertyType;
+
+import com.grepp.llm.gemini.text.vo.generation.PropertyType;
 
 public class BookFormat {
     private final PropertyType title = PropertyType.STRING;

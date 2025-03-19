@@ -2,13 +2,12 @@ package com.grepp.mc;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.grepp.llm.ChatModel;
+import com.grepp.llm.Response;
+import com.grepp.llm.gemini.text.GeminiChatModel;
+import com.grepp.llm.gemini.text.TextRequest;
 import com.grepp.mc.domain.song.Song;
 import com.grepp.mc.domain.song.SongFormat;
-import com.grepp.mc.infra.llm.ChatModel;
-import com.grepp.mc.infra.llm.Response;
-import com.grepp.mc.infra.llm.gemini.text.GeminiChatModel;
-import com.grepp.mc.infra.llm.gemini.text.TextRequest;
-import com.grepp.mc.infra.llm.gemini.text.vo.RequestDocument;
 import com.grepp.mc.presentation.Index;
 import java.util.List;
 import java.util.Map;

@@ -1,13 +1,14 @@
 package com.grepp.mc.domain.song;
 
-import com.grepp.mc.infra.llm.gemini.text.vo.generation.PropertyType;
+import com.grepp.llm.gemini.text.Format;
+import com.grepp.llm.gemini.text.vo.generation.PropertyType;
 import java.util.Map;
 
 public record SongFormat(
     PropertyType title,
     PropertyType artist,
     PropertyType reason
-) {
+) implements Format {
 
     public static final SongFormat format = new SongFormat(PropertyType.STRING, PropertyType.STRING,
         PropertyType.STRING);
