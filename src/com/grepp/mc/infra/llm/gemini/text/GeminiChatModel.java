@@ -21,9 +21,9 @@ public class GeminiChatModel implements ChatModel {
     private static final String API_URL = "https://generativelanguage.googleapis.com"
                                             + "/v1beta"
                                             + "/models"
-                                            + "/gemini-2.0-flash:generateContent";
+                                            + "/gemini-1.5-flash:generateContent";
 
-    private static final String API_KEY = "Google API KEY";
+    private static final String API_KEY = "AIzaSyAmsuVuvQQN8p_WPrVE6Llt-k3AWX4yAX4";
 
     @Override
     public Response invoke(Request request) {

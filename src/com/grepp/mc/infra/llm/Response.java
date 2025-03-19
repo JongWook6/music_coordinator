@@ -5,6 +5,6 @@ import java.util.Map;
 
 public interface Response {
 
-    Map<String, Object> response();
+    List<Map<String, Object>> response();
 
 }
